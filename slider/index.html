@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>New Kepemimpinan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="swiper-profile.css">
+    <link rel="stylesheet" href="style-profile.css">
+    <link rel="stylesheet" href="card-profile.css">
+
+</head>
+
+<body>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="containercard">
+                    <div class="wrapper">
+                        <a href="#" class="image">
+                            <img src="img/kahim/kahim-20.jpg" alt="">
+                        </a>
+                        <div class="title">Sendi Dika Prasenda </div>
+                        <div class="place">Masa jabatan: 2020 s/d 2021<br>NIM: 218441046</div>
+                        <a href="#">
+                            <img src="img/angkatan/himamo-24.png" alt="">
+                        </a>
+                        <div class="icons">
+                            <ul class="ul-2">
+                                <p class="li-2"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></p>
+                                <p class="li-2"><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="containercard">
+                    <div class="wrapper">
+                        <a href="#" class="image">
+                            <img src="img/kahim/kahim-20.jpg" alt="">
+                        </a>
+                        <div class="title">Sendi Dika Prasenda </div>
+                        <div class="place">Masa jabatan: 2020 s/d 2021<br>NIM: 218441046</div>
+                        <a href="#">
+                            <img src="img/angkatan/himamo-24.png" alt="">
+                        </a>
+                        <div class="icons">
+                            <ul class="ul-2">
+                                <p class="li-2"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></p>
+                                <p class="li-2"><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- img active -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 400,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+    </script>
+    <!-- 
+    <script>
+        $(document).ready(function() {
+            $("img").click(function() {
+                $("img").toggleClass("active");
+            });
+        });
+    </script>-->
+</body>
+
+</html>
